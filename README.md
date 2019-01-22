@@ -1,7 +1,9 @@
 # MathemticaForDFTnSPM
 _Mathematica notebooks for processing, plotting and visualizition of outputs (and sometimes also inputs) of DFT codes (VASP, FHI-AIMS, Fireball, GPAW and maybe others) and results of SPM (simulations)_
 
-__atomic_prop.dat__ : file with colours and radii for elements
+__atomic_prop.dat__ : text file with colours and radii for elements.
+
+__Bader_analysis_view.nb__ : Visualization of charges from Bader analysis. Notebook can operate with outputs of "bader" script ( theory.cm.utexas.edu/henkelman/research/bader/ ) from VASP and FHI-AIMS .
 
 __BAS_to_XYZ_to_IN_to_CAR.nb__ : Notebook for fast switching of geometry from xyz, bas, geometry.in, CONTCAR & POSCAR files. Possibility to change atomic order, according to element and/or _x_ and/or _y_ and/or _z_ coordinates.
 
@@ -23,3 +25,4 @@ __PP_XY_view_via_XSF.nb__ : ProbeParticle position view. This notebook is basica
 
 __WSxM_and_geom_2n3D_view.nb__ : Notebook for 2D & 3D visualization of SPM (simulated) data stored in WSxM format together with balls and sticks model of geometry (from DFT calculations). Possible to obtain also any line-profile from SPM data.
 
+If there are some chapter-titles (Black bold texts) without any cells afterwards it means, that these chapters are closed. It is possible to open them by double-click to the second line/parentheses on the right side.
