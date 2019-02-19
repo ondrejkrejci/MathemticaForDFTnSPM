@@ -1,0 +1,29 @@
+TODO:
+
+Concerning CP2K pDOS:
+
+you can switch on printing per atom by adding 
+
+&LDOS
+  LIST 1..9999
+&END
+
+to the pdos section. See link below.
+
+https://manual.cp2k.org/cp2k-4_1-branch/CP2K_INPUT/FORCE_EVAL/DFT/PRINT/PDOS/LDOS.html
+CP2K_INPUT / FORCE_EVAL / DFT / PRINT / PDOS / LDOS
+manual.cp2k.org
+Controls the printing of local PDOS, projected on subsets of atoms given through lists
+
+In  case you want to implement it in the mathematica notebooks, I'd be interested to give it a try.
+
+Cheers
+Marc
+
+
+
+Add XSF and cube viewer
+
+Better description in Wiki
+
+Fork it under SINGROUP
