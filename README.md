@@ -7,9 +7,9 @@ __Bader_analysis_view.nb__ : Visualization of charges from Bader analysis. Noteb
 
 __BAS_to_XYZ_to_IN_to_CAR.nb__ : Notebook for fast switching of geometry from xyz, bas, geometry.in, CONTCAR & POSCAR files. Possibility to change atomic order, according to element and/or _x_ and/or _y_ and/or _z_ coordinates.
 
-__DOS_plot_and_view.nb__ : The notebook can read PDOS from different DFT codes (Fireball, VASP, GPAW, FHI-AIMS) and plot them in the same way. In the second part (VIEW) there is possibility to visualize the amount of PDOS per atom in 3D balls & sticks model.
+__DOS_plot_and_view.nb__ : The notebook can read PDOS from different DFT codes (Fireball, VASP, GPAW, FHI-AIMS, CP2K) and plot them in the same way. In the second part (VIEW) there is possibility to visualize the amount of PDOS per atom in 3D balls & sticks model.
 
-__DOS_plot_and_view_spinpol.nb__ : The notebook can read spin-polarized PDOS from different DFT codes (VASP and FHI - AIMS) and plot them in the same way. For VASP also polarization in case of spin-orbit coupling can be plotted. In the second part (VIEW) there is possibility to visualize the amount of PDOS per atom in 3 D balls & sticks model.
+__DOS_plot_and_view_spinpol.nb__ : The notebook can read spin-polarized PDOS from different DFT codes (VASP, FHI - AIMS and CP2K) and plot them in the same way. For VASP also polarization in case of spin-orbit coupling can be plotted. In the second part (VIEW) there is possibility to visualize the amount of PDOS per atom in 3 D balls & sticks model.
 
 __energy_path_plot.nb__ : Plotting of energy diagrams and barriers for Nudged Elastic Band calculations.
 
